@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "dream-store": {
+    "dream-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/dream-store",
+            "outputPath": "dist/dream-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -31,7 +31,7 @@
             ],
             "scripts": [],
             "server": "src/main.server.ts",
-            "outputMode": "server",
+            "prerender": true,
             "ssr": {
               "entry": "src/server.ts"
             }
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "dream-store:build:production"
+              "buildTarget": "dream-angular:build:production"
             },
             "development": {
-              "buildTarget": "dream-store:build:development"
+              "buildTarget": "dream-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "c6d1e12c-c50d-4de6-bd46-c3ba751db4a3"
+    "analytics": "9479e7ff-720e-4cc5-850c-db6c1af69633"
   }
 }
