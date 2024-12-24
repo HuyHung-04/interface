@@ -1,0 +1,77 @@
+.example-container {
+    height: 100vh;
+  }
+  
+  mat-sidenav {
+    width: 250px;
+    background:  #007bff;
+    color: white;
+  }
+  
+  mat-sidenav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+  }
+  
+  mat-sidenav a:hover {
+    background: #096cd6;
+  }
+  
+  mat-sidenav-content {
+    padding: 16px;
+  }
+  .spacer {
+    flex: 1;
+  }
+  
+  .login-btn {
+    margin-right: 16px;
+  }
+
+  /* Chỉnh logo */
+.sidebar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: #007bff; /* Màu nền cho logo */
+}
+
+.logo {
+  width: 80px; /* Kích thước logo */
+  height: auto;
+}
+
+/* Chỉnh khoảng cách và kích thước chữ của sidebar */
+mat-nav-list a {
+  font-size: 18px; /* Tăng kích thước chữ */
+  margin: 10px 0; /* Thêm khoảng cách giữa các mục */
+}
+
+mat-nav-list a:hover {
+  background-color: #007bff; /* Hiệu ứng hover */
+  color: white;
+}
+/* Chỉnh logo lớn hơn và khung hình tròn */
+.sidebar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: #007bff; /* Màu nền cho logo */
+  border-bottom: 1px solid #ccc; /* Đường viền dưới nếu cần */
+}
+
+.logo {
+  width: 120px; /* Tăng kích thước logo */
+  height: 120px; /* Chiều cao bằng chiều rộng để tạo hình vuông */
+  border-radius: 50%; /* Làm tròn logo */
+  object-fit: cover; /* Cắt hình ảnh cho vừa khung tròn */
+  border: 3px solid white; /* Viền trắng quanh logo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng để tạo hiệu ứng nổi */
+}
+
+
+  
